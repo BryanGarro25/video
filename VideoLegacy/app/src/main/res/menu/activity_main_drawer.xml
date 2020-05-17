@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:title="Options Available">
+        <menu>
+            <item
+                android:id="@+id/nav_list_movie"
+                android:enabled="true"
+                android:icon="@drawable/ic_list"
+                android:title="Movies" />
+            <item
+                android:id="@+id/nav_list_series"
+                android:enabled="true"
+                android:icon="@drawable/ic_list"
+                android:title="Series" />
+        </menu>
+    </item>
+</menu>
