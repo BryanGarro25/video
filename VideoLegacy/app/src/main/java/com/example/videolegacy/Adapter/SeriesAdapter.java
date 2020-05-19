@@ -8,7 +8,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.videolegacy.Fragments.Adventure;
 import com.example.videolegacy.Fragments.Horror;
-import com.example.videolegacy.Fragments.Superheroes;
 
 public class SeriesAdapter extends FragmentPagerAdapter {
 
@@ -31,9 +30,6 @@ public class SeriesAdapter extends FragmentPagerAdapter {
             case 1:
                 Horror horrorFragment = new Horror();
                 return horrorFragment;
-            case 2:
-                Superheroes movieFragment = new Superheroes();
-                return movieFragment;
             default:
                 return null;
         }

@@ -1,8 +1,6 @@
 package com.example.videolegacy.Logica;
 
 public class Serie {
-
-
         private String titulo;
         private String Descripcion;
         private int anio;
