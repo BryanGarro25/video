@@ -13,6 +13,7 @@
         android:height="60dp"
         android:background="@color/design_default_color_on_secondary"
         android:gravity="center"
+        android:onClick="display"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
