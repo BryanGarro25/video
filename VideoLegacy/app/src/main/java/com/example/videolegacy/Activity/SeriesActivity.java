@@ -32,7 +32,6 @@ public class SeriesActivity extends AppCompatActivity {
 
         tabLayout.addTab(tabLayout.newTab().setText("Adventure"));
         tabLayout.addTab(tabLayout.newTab().setText("Horror"));
-        tabLayout.addTab(tabLayout.newTab().setText("Superheroes"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 

@@ -16,13 +16,14 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Movies"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="32sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp"
+        app:drawableTint="#F80C0C" />
 
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="572dp"
+        android:layout_height="437dp"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -30,7 +31,48 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="39dp">
+        android:layout_marginBottom="174dp"
+        android:clipToPadding="true">
 
     </ListView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="114dp"
+        android:text="Selected Item"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/selectedItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="110dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/design_default_color_error" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/design_default_color_error"
+        android:text="Watch Now"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold" />
+
 </RelativeLayout>

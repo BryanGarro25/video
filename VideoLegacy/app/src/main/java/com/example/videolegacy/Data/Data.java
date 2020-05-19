@@ -27,4 +27,11 @@ public class Data {
     public List<Movie> getMovieList() {
         return movieList;
     }
+    public List<String> getMovieNames(){
+        List<String> string_list = new ArrayList<>();
+        for (Movie movie: movieList) {
+            string_list.add(movie.getTitulo());
+        }
+        return  string_list;
+    }
 }
